@@ -1,0 +1,106 @@
+{
+  "usuarios": [
+    {
+      "id": "ee6d",
+      "nombre": "Elvis",
+      "correo": "hjvSSVHs@.com",
+      "clave": "1234"
+    },
+    {
+      "id": "957a",
+      "nombre": "Juan Diego",
+      "correo": "jdkjhdk@mail.com",
+      "clave": "12345"
+    },
+    {
+      "id": "aa03",
+      "nombre": "Betzabeth",
+      "correo": "kjwdkjdwa@gmail.com",
+      "clave": "123456"
+    },
+    {
+      "id": "6177",
+      "nombre": "Elvis",
+      "clave": "1234"
+    }
+  ],
+  "Tareas": [
+    {
+      "id": "d485",
+      "Tarea": "Comer"
+    },
+    {
+      "id": "4d20",
+      "Tarea": "Comer"
+    },
+    {
+      "id": "1e7f",
+      "Tarea": "Hola",
+      "eliminada": true
+    },
+    {
+      "id": "5b87",
+      "Tarea": "Comer"
+    },
+    {
+      "id": "8f9e",
+      "Tarea": "Comer"
+    },
+    {
+      "id": "4b54",
+      "Tarea": "Hola"
+    },
+    {
+      "id": "cb8c",
+      "Tarea": "COMER"
+    },
+    {
+      "id": "0df7",
+      "Tarea": "TOMAR AGUA"
+    },
+    {
+      "id": "e34b",
+      "Tarea": "aaaa"
+    },
+    {
+      "id": "1be3",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "8519",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "c58c",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "2166",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "1916",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "a14b",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "c001",
+      "Tarea": "a",
+      "eliminada": false
+    },
+    {
+      "id": "bfb4",
+      "Tarea": "a",
+      "eliminada": false
+    }
+  ]
+}

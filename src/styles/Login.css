@@ -1,0 +1,19 @@
+.Login{
+    position: absolute;
+    border-radius: 10px;
+    border: green solid 1px;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    padding: 5%;
+    color: green;
+    margin: auto;
+    margin-top: 25%;
+    margin-left: 10%;
+    bottom: 15vh;
+  }
+
+  .inicia{
+
+    font-size: 20px;
+  }
