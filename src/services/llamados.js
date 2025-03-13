@@ -1,6 +1,6 @@
 const postData= async(info,endpoint)=>{
     try {
-      const peticion = await fetch(`http://localhost:3000 /${endpoint}`,{
+      const peticion = await fetch(`http://localhost:3000/${endpoint}`,{
         method:"POST",
         headers:{
             "Content-type":"application/json"
@@ -25,7 +25,6 @@ const getData=async(endpoint) => {
         console.error(error);
     }
 }
-export {postData,getData}   
 
 async function deleteUser(endpoint, id) {
     try {
@@ -35,16 +34,31 @@ async function deleteUser(endpoint, id) {
                 'Content-Type': 'application/json'
             }
         });
-
+        
         if (!response.ok) {
             throw new Error(`Error deleting user with id ${id}`);
         }
-
+        
         return { message: `User with id ${id} deleted successfully` };
     } catch (error) {
         console.error('Error deleting user:', error);
         throw error;
     }
 }
-
-export { deleteUser };
+async function patchData(info,endpoint,id) {
+    try {
+        const peticion = await fetch(`http://localhost:3000/${endpoint}/${id}`,{
+          method:"PATCH",
+          headers:{
+              "Content-type":"application/json"
+          },
+          body: JSON.stringify(info)
+        })
+        const datos = await peticion.json()
+        console.log(datos);
+        return datos
+      } catch (error) {
+          console.error(error);
+      }
+}
+export {postData,getData,deleteUser,patchData}   

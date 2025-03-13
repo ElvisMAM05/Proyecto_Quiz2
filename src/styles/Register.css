@@ -6,7 +6,7 @@
   }
   .Login {
     
-    border: 1px solid aqua;
+    border: 5px solid violet;
     width: 300px;
     height: 400px;
     justify-content: center;
@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 5px;
     padding: 2%;
-    color: aqua;
+    color: black;
 }
   .Login h2 {
     text-align: center;
@@ -39,4 +39,9 @@ left: 20px;
     width: 60px;
     left: 95px;
     
+}
+.Link{
+  margin-top: 10%;
+  margin-left: 30%;
+  color: black;
 }

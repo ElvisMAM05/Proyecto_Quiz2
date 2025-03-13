@@ -14,9 +14,10 @@ function Routing() {
         <Router>
             <Routes>
 
+                
                 <Route path="/LoginP" element={<LoginP/>}/>
                 <Route path="/RegisterP" element={<RegisterP/>}/>
-                <Route path='/Home' element={<HomeP/>}/>
+                <Route path='/' element={<HomeP/>}/>
                 <Route path='/Todo' element={<To_DoP/>}/>
 
 

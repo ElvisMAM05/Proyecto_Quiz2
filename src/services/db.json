@@ -26,81 +26,29 @@
   ],
   "Tareas": [
     {
-      "id": "d485",
-      "Tarea": "Comer"
+      "id": "a4ca",
+      "Tarea": "Adios",
+      "eliminada": false
     },
     {
-      "id": "4d20",
-      "Tarea": "Comer"
-    },
-    {
-      "id": "1e7f",
-      "Tarea": "Hola",
+      "id": "6a48",
+      "Tarea": "Con el Cristo de Nazareno",
       "eliminada": true
     },
     {
-      "id": "5b87",
-      "Tarea": "Comer"
+      "id": "1c08",
+      "Tarea": "Que tú me regalaste Carmen",
+      "eliminada": true
     },
     {
-      "id": "8f9e",
-      "Tarea": "Comer"
+      "id": "0fb2",
+      "Tarea": "Que tu me regalaste",
+      "eliminada": true
     },
     {
-      "id": "4b54",
-      "Tarea": "Hola"
-    },
-    {
-      "id": "cb8c",
-      "Tarea": "COMER"
-    },
-    {
-      "id": "0df7",
-      "Tarea": "TOMAR AGUA"
-    },
-    {
-      "id": "e34b",
-      "Tarea": "aaaa"
-    },
-    {
-      "id": "1be3",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "8519",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "c58c",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "2166",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "1916",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "a14b",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "c001",
-      "Tarea": "a",
-      "eliminada": false
-    },
-    {
-      "id": "bfb4",
-      "Tarea": "a",
-      "eliminada": false
+      "id": "90f1",
+      "Tarea": "Lavar",
+      "eliminada": true
     }
   ]
 }

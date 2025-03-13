@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../styles/Register.css';
 import { postData } from '../services/llamados';
+import { Link } from "react-router-dom"
 
 function Register() {   
   const [nombre,setNombre] = useState("")
@@ -31,6 +32,8 @@ function Register() {
         <input  type="password" placeholder="password"  className="input" onChange={(e)=>setClave(e.target.value)}/>
 
     <button onClick={guardarDatos} >Ingresar</button>
+
+          <p className='Link'><Link to={"/Login"} className='Link'>Ya tengo cuenta</Link></p>
     </div>
     </div>
   )

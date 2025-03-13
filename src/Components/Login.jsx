@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import {useNavigate} from "react-router-dom"
 import React from 'react'
-import '../styles/Login.css'
+import  '../styles/Login.css'
 import { getData } from '../services/llamados';
   
 function Login() {
@@ -8,6 +9,7 @@ function Login() {
 const [clave,setClave] = useState("")
 const [nombre,setNombre] = useState("")
 const [error,setError]= useState("")
+const navigate= useNavigate()
 
 
 async function LoginE(){
@@ -28,6 +30,7 @@ try{
     if(Found){
       console.log("Bienvenido", Found )
 
+      navigate("/Todo")
     }else{
       setError("Contraseña incorrecta")
     }
@@ -56,6 +59,8 @@ try{
         {error && <p className="error">{error}</p>}
 
         <button id="send" onClick={LoginE}>Ingresar</button>
+
+        <p></p>
 
     </div>
 

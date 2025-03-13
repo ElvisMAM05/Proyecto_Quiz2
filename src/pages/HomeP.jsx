@@ -4,6 +4,7 @@ import Home from '../Components/Home'
 function HomeP() {
     
   return (
+    
     <Home/>
   )
 }
